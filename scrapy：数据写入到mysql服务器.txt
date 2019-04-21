@@ -1,13 +1,14 @@
 如何将爬取内容写入数据库？
 
 数据库设置
+```
 create database  scrapyMysql;
 use scrapyMysql;
 CREATE TABLE `mingyan` (
   `tag` varchar(10) DEFAULT NULL,
   `cont` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
+```
 远端服务器开启远程登录
 [开启远端登录](http://127.0.0.1/wp/?p=2051)
 
