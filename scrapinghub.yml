@@ -1,1 +1,3 @@
 project: 380804
+requirements:
+    file: requirements.txt

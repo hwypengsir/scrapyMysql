@@ -8,12 +8,12 @@ import pymysql.cursors
 class MySQLPipeline(object):
     def __init__(self):
         self.connect = pymysql.connect(
-            host='104.160.39.49',  # 数据库地址
-            port=3306,  # 数据库端口
-            db='scrapyMysql',  # 数据库名
-            user='root',  # 数据库用户名
-            passwd='123456',  # 数据库密码
-            charset='utf8',  # 编码方式
+            host='104.160.39.49',  
+            port=3306,  
+            db='scrapyMysql',  
+            user='root',  
+            passwd='123456',  
+            charset='utf8',  
             use_unicode=True)
         self.cursor = self.connect.cursor()
 
